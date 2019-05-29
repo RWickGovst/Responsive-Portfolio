@@ -33,9 +33,10 @@ body {
 }
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 980px;
     margin: 0 auto;
     clear: both;
+    float: center;
 }
 h1, h2, h3, p {
     margin-bottom: 20px;
@@ -79,8 +80,8 @@ nav a:first-child {
     padding: 30px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 650px;
-    float: left;
+    max-width: 980px;
+    float: center;
 }
 .auth-image {
     width: 150px;
