@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-#navbar {
+#masthead {
     background: #ffffff;
     color: #ffffff;
     margin: 0 0 30px;
@@ -33,10 +33,9 @@ body {
 }
 .container {
     width: 100%;
-    max-width: 980px;
+    max-width: 960px;
     margin: 0 auto;
     clear: both;
-    float: center;
 }
 h1, h2, h3, p {
     margin-bottom: 20px;
@@ -74,17 +73,20 @@ nav a {
 nav a:first-child {
     border-left: 0 none;
 }
+#main-container {
+    padding-top: 130px;
+}
 .main-section {
     background: #ffffff;
     border: 1px solid #ddd;
     padding: 30px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 980px;
-    float: center;
+    max-width: 650px;
+    float: left;
 }
 .auth-image {
-    width: 150px;
+    width: 200px;
     height: auto;
     float: left;
     margin: 0 25px 25px;
