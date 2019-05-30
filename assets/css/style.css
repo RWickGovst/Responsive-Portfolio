@@ -1,14 +1,18 @@
 * {
     box-sizing: border-box;
 }
+form {
+    width: 60%;
+    float: left;
+}
 #masthead {
     background: #ffffff;
     color: #ffffff;
-    margin: 0 0 30px;
+    /* margin: 0 0 30px; */
     border-bottom: 2px solid #cccccc;
     z-index: 99;
     overflow: auto;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     float: center;
 }
@@ -35,7 +39,7 @@ body {
 .container {
     float:center;
     width: 100%;
-    max-width: 960px;
+    max-width: 768px;
     margin: 0 auto;
     clear: both;
 }
@@ -76,7 +80,7 @@ nav a:first-child {
     border-left: 0 none;
 }
 #main-container {
-    padding-top: 130px;
+    padding-top: 20px;
 }
 .main-section {
     background: #ffffff;
@@ -88,8 +92,8 @@ nav a:first-child {
     float: left;
 }
 .auth-image {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 150px;
     float: left;
     margin: 0 25px 25px;
 }
@@ -98,7 +102,7 @@ nav a:first-child {
     border: 1px solid #dddddd;
     padding: 30px;
     width: 50%;
-    max-width: 50%;
+    max-width: 300px;
     float: right;
     
     margin-bottom: 20px;
@@ -132,7 +136,7 @@ h3, .sidebar, h2 {
     margin-right: 40px;
 }
 .work img {
-    width: 100%;
+    width: 200px;
     border: 0 none;
     opacity: .9;
 }
@@ -200,6 +204,10 @@ footer {
     .main-container{
         width: 100%;
     }
+    #logo {
+        width: 30%;
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 768px)
 {
@@ -209,10 +217,20 @@ footer {
     }
     .container{
         width:100%;
+        margin-left: 10px;
     }
     .main-container{
         width: 100%;
-    } 
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #connect{
+        width: 30%;
+    }
+    #logo{
+        width: 30%;
+        font-size: 28px;
+    }
 }
 @media screen and (max-width: 640px)
 {
@@ -222,11 +240,19 @@ footer {
     }
     .container{
         width:100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .main-container{
         width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     #connect{
         width: 100%;
+    }
+    #logo{
+        width: 30%;
+        font-size: 20px;
     }
 }
