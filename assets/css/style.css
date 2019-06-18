@@ -30,7 +30,7 @@ form {
 body {
     background-image: linear-gradient(darkgrey, white);
     color: #777777;
-    line-height: 34px;
+    /* line-height: 34px; */
     font-family: Arial, Helvetica, sans-serif;  
 }
 .container {
